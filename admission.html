@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Admission - UTSA - Université Techno-Scientifique de l'Amérique</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="UTSA, admission, postuler, inscription, université" name="keywords">
+    <meta content="Postulez dès maintenant à l'UTSA pour rejoindre l'un de nos programmes d'excellence." name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Chargement...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/Logo.png" alt="UTSA" style="height: 60px;">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Accueil</a>
+                <div class="nav-item dropdown">
+                    <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">L’Université</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="presentation.html" class="dropdown-item">Présentation</a>
+                        <a href="mission-vision.html" class="dropdown-item">Mission & Vision</a>
+                        <a href="gouvernance.html" class="dropdown-item">Gouvernance</a>
+                        <a href="historique.html" class="dropdown-item">Historique</a>
+                        <a href="partenariats.html" class="dropdown-item">Partenariats</a>
+                    </div>
+                </div>
+                <a href="courses.html" class="nav-item nav-link">Formations</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Facultés</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="faculte-genie.html" class="dropdown-item">Sciences Appliquées et Génie</a>
+                        <a href="faculte-droit.html" class="dropdown-item">Droit, Sciences Admin. & Économiques</a>
+                        <a href="faculte-sante.html" class="dropdown-item">Sciences de la Santé</a>
+                    </div>
+                </div>
+                <a href="admission.html" class="nav-item nav-link active">Admissions</a>
+                <a href="recherche.html" class="nav-item nav-link">Recherche</a>
+                <a href="vie-universitaire.html" class="nav-item nav-link">Vie universitaire</a>
+                <a href="actualites.html" class="nav-item nav-link">Actualités</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="d-none d-lg-flex align-items-center">
+                <a href="admission.html" class="btn btn-primary py-4 px-lg-3">Candidater<i class="fa fa-arrow-right ms-2"></i></a>
+                <a href="#" class="btn btn-outline-primary py-4 px-lg-3 ms-lg-2">Espace Étudiant<i class="fa fa-user ms-2"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="display-4 text-white mb-4">Formulaire d'Admission</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="index.html" class="text-white">Accueil</a></li>
+                <li class="breadcrumb-item text-white active">Admission</li>
+            </ol>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Admission Information Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h6 class="section-title bg-white text-center text-primary px-3">Inscription</h6>
+                <h1 class="mb-4">Guide d'Admission à l'UTSA</h1>
+            </div>
+
+            <!-- Conditions d'Admission -->
+            <div class="row g-5 mb-5">
+                <div class="col-lg-12">
+                    <h3 class="mb-4 text-primary"><i class="fa fa-check-circle me-2"></i>Conditions d'Admission</h3>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-light p-4 rounded mb-4">
+                        <h5><i class="fa fa-graduation-cap me-2 text-primary"></i>Diplôme d'Université</h5>
+                        <ul>
+                            <li>Baccalauréat ou diplôme équivalent</li>
+                            <li>Niveau d'études secondaires complet</li>
+                            <li>Expérience professionnelle appréciée</li>
+                            <li>Motivation et projet professionnel clair</li>
+                        </ul>
+                    </div>
+                    <div class="bg-light p-4 rounded mb-4">
+                        <h5><i class="fa fa-book me-2 text-primary"></i>Licence</h5>
+                        <ul>
+                            <li>Baccalauréat dans le domaine pertinent</li>
+                            <li>Entretien d'admission possible</li>
+                            <li>Résultats académiques satisfaisants</li>
+                            <li>Motivation et objectifs professionnels</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-light p-4 rounded mb-4">
+                        <h5><i class="fa fa-book-open me-2 text-primary"></i>Master</h5>
+                        <ul>
+                            <li>Licence ou diplôme équivalent (180 crédits)</li>
+                            <li>Moyenne générale satisfaisante</li>
+                            <li>Projet de recherche ou professionnel</li>
+                            <li>Entretien de sélection compétitif</li>
+                        </ul>
+                    </div>
+                    <div class="bg-light p-4 rounded">
+                        <h5><i class="fa fa-microscope me-2 text-primary"></i>Doctorat</h5>
+                        <ul>
+                            <li>Master ou équivalent professionnel reconnu</li>
+                            <li>Projet de recherche détaillé et faisable</li>
+                            <li>Lettre de motivation et CV complet</li>
+                            <li>Sélection rigoureuse basée sur le projet</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Procédure d'Inscription -->
+            <div class="row g-5 mb-5">
+                <div class="col-lg-12">
+                    <h3 class="mb-4 text-primary"><i class="fa fa-tasks me-2"></i>Procédure d'Inscription</h3>
+                </div>
+                <div class="col-lg-12">
+                    <div class="accordion" id="procedureAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#procedure1">
+                                    <i class="fa fa-arrow-right me-2 text-primary"></i>Étape 1: Demande en Ligne
+                                </button>
+                            </h2>
+                            <div id="procedure1" class="accordion-collapse collapse show" data-bs-parent="#procedureAccordion">
+                                <div class="accordion-body">
+                                    Remplissez le formulaire de candidature en ligne avec vos informations personnelles, vos études antérieures et votre programme de choix. La création de compte est simple et rapide.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#procedure2">
+                                    <i class="fa fa-arrow-right me-2 text-primary"></i>Étape 2: Dépôt de Documents
+                                </button>
+                            </h2>
+                            <div id="procedure2" class="accordion-collapse collapse" data-bs-parent="#procedureAccordion">
+                                <div class="accordion-body">
+                                    Téléchargez les documents justificatifs (diplômes, relevés de notes, CV). Les documents doivent être au format PDF ou JPG. Tous les documents étrangers doivent être traduits en français.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#procedure3">
+                                    <i class="fa fa-arrow-right me-2 text-primary"></i>Étape 3: Examen du Dossier
+                                </button>
+                            </h2>
+                            <div id="procedure3" class="accordion-collapse collapse" data-bs-parent="#procedureAccordion">
+                                <div class="accordion-body">
+                                    Notre commission d'admission examine votre dossier. Délai moyen: 2-3 semaines. Vous serez contacté par email pour tout document manquant ou entretien d'admission.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#procedure4">
+                                    <i class="fa fa-arrow-right me-2 text-primary"></i>Étape 4: Décision et Inscription
+                                </button>
+                            </h2>
+                            <div id="procedure4" class="accordion-collapse collapse" data-bs-parent="#procedureAccordion">
+                                <div class="accordion-body">
+                                    Vous recevez la décision (accepté, en attente, ou refusé) par email. Les candidats acceptés doivent confirmer leur inscription en payant les frais et en soumettant les documents finaux.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Frais de Scolarité -->
+            <div class="row g-5 mb-5">
+                <div class="col-lg-12">
+                    <h3 class="mb-4 text-primary"><i class="fa fa-money-bill me-2"></i>Frais de Scolarité</h3>
+                </div>
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead class="bg-primary text-white">
+                                <tr>
+                                    <th>Niveau d'Études</th>
+                                    <th>Frais Annuels</th>
+                                    <th>Droits d'Inscription</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Diplôme d'Université</strong></td>
+                                    <td>$2,500</td>
+                                    <td>$150</td>
+                                    <td>$2,650</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Licence Ordinaire</strong></td>
+                                    <td>$3,500</td>
+                                    <td>$200</td>
+                                    <td>$3,700</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Licence Extraordinaire</strong></td>
+                                    <td>$3,000</td>
+                                    <td>$200</td>
+                                    <td>$3,200</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Master</strong></td>
+                                    <td>$5,500</td>
+                                    <td>$250</td>
+                                    <td>$5,750</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Doctorat</strong></td>
+                                    <td>$4,500</td>
+                                    <td>$300</td>
+                                    <td>$4,800</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <p class="small text-muted">*Les frais sont en USD. Possibilité de paiement en plusieurs tranches. Consulter le bureau administratif pour les options de financement.</p>
+                </div>
+            </div>
+
+            <!-- Bourses et Aides Financières -->
+            <div class="row g-5 mb-5">
+                <div class="col-lg-12">
+                    <h3 class="mb-4 text-primary"><i class="fa fa-graduation-cap me-2"></i>Bourses et Aides Financières</h3>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-light p-4 rounded mb-4">
+                        <h5><i class="fa fa-award me-2 text-primary"></i>Bourses d'Excellence Académique</h5>
+                        <p>Pour étudiants avec excellents résultats académiques (GPA 3.5+). Couverture: 25-50% des frais. Reconditionnable chaque année.</p>
+                    </div>
+                    <div class="bg-light p-4 rounded mb-4">
+                        <h5><i class="fa fa-hand-holding me-2 text-primary"></i>Bourses Sociales</h5>
+                        <p>Pour étudiants en difficultés économiques avérées. Basées sur étude de dossier socio-économique. Couverture: 50-75% des frais.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-light p-4 rounded mb-4">
+                        <h5><i class="fa fa-flask me-2 text-primary"></i>Bourses de Recherche</h5>
+                        <p>Pour doctorants et chercheurs. Couverture complète ou partielle + allocation mensuelle. Sélection compétitive basée sur projet research.</p>
+                    </div>
+                    <div class="bg-light p-4 rounded">
+                        <h5><i class="fa fa-handshake me-2 text-primary"></i>Bourses Partenaires</h5>
+                        <p>Financements de partenaires internationaux et locaux. Critères spécifiques selon partenaire. Consultez notre bureau d'aide financière.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+            <div class="row g-5 mb-5">
+                <div class="col-lg-12">
+                    <h3 class="mb-4 text-primary"><i class="fa fa-question-circle me-2"></i>Questions Fréquemment Posées (FAQ)</h3>
+                </div>
+                <div class="col-lg-12">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    Quel est le délai de traitement des dossiers?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Le délai moyen est de 2-3 semaines après réception complète du dossier. Pendant les périodes de flux élevé, ce délai peut atteindre 4 semaines. Vous serez informé par email de l'évolution.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Puis-je demander plusieurs programmes?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Oui, vous pouvez soumettre plusieurs candidatures. Chaque candidature doit être soumise séparément avec le formulaire approprié et les frais d'inscription correspondants.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Les étudiants étrangers peuvent-ils s'inscrire?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Oui, absolument. Les étudiants internationaux sont les bienvenus. Les documents étrangers doivent être traduits en français et légalisés. Des visas d'études peuvent être obtenus après admission.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Quand commence l'année académique?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    L'année académique commence généralement en septembre pour le semestre d'automne et en février pour le semestre de printemps. Les inscriptions fermées quelques semaines avant le début.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    Comment faire pour une demande de bourse?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Indiquez votre intérêt pour une bourse dans la section "Informations Supplémentaires" du formulaire. Après sélection, vous recevirez un formulaire de demande de bourse détaiilé à compléter.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Admission Information End -->
+
+    <!-- Admission Form Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-light rounded p-5 shadow-sm">
+                        <div class="text-center mb-5">
+                            <h6 class="section-title bg-white text-center text-primary px-3">Candidature</h6>
+                            <h1 class="mb-2">Rejoignez l'UTSA</h1>
+                            <p>Veuillez remplir le formulaire étape par étape pour soumettre votre dossier.</p>
+                        </div>
+
+                        <!-- Progress Bar -->
+                        <div class="progress progress-container" style="height: 20px;">
+                            <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+
+                        <form id="admissionForm" action="submit_admission.php" method="POST" enctype="multipart/form-data">
+                            <!-- Step 1: Personal Info -->
+                            <div class="step active" id="step-1">
+                                <h4 class="mb-4">Étape 1: Informations Personnelles</h4>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" name="last_name" id="lastName" placeholder="Nom" required>
+                                            <label for="lastName">Nom</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" name="first_name" id="firstName" placeholder="Prénom" required>
+                                            <label for="firstName">Prénom</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Téléphone" required>
+                                            <label for="phone">Téléphone</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-end mt-4">
+                                        <button type="button" class="btn btn-primary py-3 px-5 next-step">Suivant</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 2: Choice of Program -->
+                            <div class="step" id="step-2">
+                                <h4 class="mb-4">Étape 2: Choix du Programme</h4>
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <label class="form-label">Niveau d'études</label>
+                                        <select class="form-select py-3" name="study_level" id="level" required>
+                                            <option value="" selected disabled>Choisissez le niveau...</option>
+                                            <option value="licence">Licence</option>
+                                            <option value="master">Master / Maîtrise</option>
+                                            <option value="doctorat">Doctorat</option>
+                                            <option value="du">Diplôme d'Université (DU)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label">Faculté</label>
+                                        <select class="form-select py-3" name="faculty" id="faculty" required>
+                                            <option value="" selected disabled>Choisissez la faculté...</option>
+                                            <option value="genie">Sciences Appliquées et Génie</option>
+                                            <option value="droit">Droit &amp; Sciences Administratives</option>
+                                            <option value="sante">Sciences de la Santé</option>
+                                            <option value="recherche">Recherche &amp; Innovation</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 text-between d-flex justify-content-between mt-4">
+                                        <button type="button" class="btn btn-secondary py-3 px-5 prev-step">Précédent</button>
+                                        <button type="button" class="btn btn-primary py-3 px-5 next-step">Suivant</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 3: Documents -->
+                            <div class="step" id="step-3">
+                                <h4 class="mb-4">Étape 3: Documents &amp; Motivation</h4>
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <label for="idCard" class="form-label">Copie de Pièce d'Identité (CIN/Passeport)</label>
+                                        <input class="form-control" type="file" name="id_card" id="idCard">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="transcript" class="form-label">Dernier Relevé de Notes</label>
+                                        <input class="form-control" type="file" name="transcript" id="transcript">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" name="motivation" placeholder="Motivation" id="motivation" style="height: 150px"></textarea>
+                                            <label for="motivation">Pourquoi voulez-vous étudier à l'UTSA ?</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-between d-flex justify-content-between mt-4">
+                                        <button type="button" class="btn btn-secondary py-3 px-5 prev-step">Précédent</button>
+                                        <button type="button" class="btn btn-primary py-3 px-5 next-step">Suivant</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 4: Confirmation -->
+                            <div class="step" id="step-4">
+                                <h4 class="mb-4">Étape 4: Confirmation</h4>
+                                <div class="bg-white p-4 rounded mb-4">
+                                    <p>Merci d'avoir choisi l'UTSA ! Veuillez vérifier si toutes les informations sont correctes avant de soumettre votre candidature.</p>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item"><strong>Nom complet:</strong> <span id="summary-name"></span></li>
+                                        <li class="list-group-item"><strong>Niveau d'études:</strong> <span id="summary-level"></span></li>
+                                        <li class="list-group-item"><strong>Faculté:</strong> <span id="summary-faculty"></span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 text-between d-flex justify-content-between mt-4">
+                                    <button type="button" class="btn btn-secondary py-3 px-5 prev-step">Précédent</button>
+                                    <button type="submit" class="btn btn-primary py-3 px-5">Soumettre la Candidature</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Admission Form End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Liens Rapides</h4>
+                    <a class="btn btn-link" href="index.html">Accueil</a>
+                    <a class="btn btn-link" href="about.html">À propos</a>
+                    <a class="btn btn-link" href="contact.html">Contact</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Adresse de l'université, Ville, Pays</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+000 000 0000</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@utsa.edu</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Restez informé des dernières actualités et événements de l'UTSA.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre adresse email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">UTSA</a>, Tous droits réservés.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var currentStep = 1;
+            var totalSteps = 4;
+
+            function updateProgress() {
+                var progress = (currentStep / totalSteps) * 100;
+                $('#progress-bar').css('width', progress + '%').text(Math.round(progress) + '%').attr('aria-valuenow', progress);
+            }
+
+            $('.next-step').click(function() {
+                if (currentStep < totalSteps) {
+                    $('#step-' + currentStep).removeClass('active');
+                    currentStep++;
+                    $('#step-' + currentStep).addClass('active');
+                    updateProgress();
+                    
+                    // Update summary in step 4
+                    if (currentStep === 4) {
+                        $('#summary-name').text($('#firstName').val() + ' ' + $('#lastName').val());
+                        $('#summary-level').text($('#level option:selected').text());
+                        $('#summary-faculty').text($('#faculty option:selected').text());
+                    }
+                }
+            });
+
+            $('.prev-step').click(function() {
+                if (currentStep > 1) {
+                    $('#step-' + currentStep).removeClass('active');
+                    currentStep--;
+                    $('#step-' + currentStep).addClass('active');
+                    updateProgress();
+                }
+            });
+
+            // Logic handled by PHP on submission
+        });
+    </script>
+</body>
+
+</html>
