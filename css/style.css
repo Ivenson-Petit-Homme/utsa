@@ -5,6 +5,16 @@
     --dark: #181d38;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Text Justification */
+p {
+    text-align: justify;
+}
+
 /* Overriding Bootstrap Primary Color */
 .text-primary {
     color: var(--primary) !important;
@@ -122,13 +132,14 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    margin-right: 30px;
+    margin-right: 15px;
     padding: 25px 0;
     color: var(--dark);
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     outline: none;
+    white-space: nowrap;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -253,10 +264,10 @@
 .section-title::before {
     position: absolute;
     content: "";
-    width: calc(100% + 80px);
+    width: 100%;
     height: 2px;
     top: 4px;
-    left: -40px;
+    left: 0;
     background: var(--primary);
     z-index: -1;
 }
@@ -264,22 +275,44 @@
 .section-title::after {
     position: absolute;
     content: "";
-    width: calc(100% + 120px);
+    width: 100%;
     height: 2px;
     bottom: 5px;
-    left: -60px;
+    left: 0;
     background: var(--primary);
     z-index: -1;
 }
 
 .section-title.text-start::before {
-    width: calc(100% + 40px);
+    width: 100%;
     left: 0;
 }
 
 .section-title.text-start::after {
-    width: calc(100% + 60px);
+    width: 100%;
     left: 0;
+}
+
+@media (min-width: 768px) {
+    .section-title::before {
+        width: calc(100% + 80px);
+        left: -40px;
+    }
+
+    .section-title::after {
+        width: calc(100% + 120px);
+        left: -60px;
+    }
+
+    .section-title.text-start::before {
+        width: calc(100% + 40px);
+        left: 0;
+    }
+
+    .section-title.text-start::after {
+        width: calc(100% + 60px);
+        left: 0;
+    }
 }
 
 
