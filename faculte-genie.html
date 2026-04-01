@@ -42,7 +42,7 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img src="img/Logo.png" alt="UTSA" style="height: 60px;">
         </a>
@@ -69,6 +69,7 @@
                         <a href="faculte-genie.html" class="dropdown-item active">Sciences Appliquées et Génie</a>
                         <a href="faculte-droit.html" class="dropdown-item">Droit, Sciences Admin. & Économiques</a>
                         <a href="faculte-sante.html" class="dropdown-item">Sciences de la Santé</a>
+                        <a href="faculte-education.html" class="dropdown-item">Sciences de l’Éducation</a>
                     </div>
                 </div>
                 <a href="admission.html" class="nav-item nav-link">Admissions</a>
@@ -87,7 +88,7 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 page-header" style="margin-top: 90px;">
+    <div class="container-fluid bg-primary py-5 mb-5 page-header" style="margin-top: 150px;">
         <div class="container text-center py-5">
             <h1 class="display-4 text-white mb-4">FACULTÉ DES SCIENCES APPLIQUÉES ET GÉNIE</h1>
             <ol class="breadcrumb justify-content-center mb-0">
@@ -108,7 +109,8 @@
                 <div class="col-lg-12">
                     <h6 class="section-title bg-white text-start text-primary pe-3">PRÉSENTATION</h6>
                     <h1 class="mb-4">FACULTÉ DES SCIENCES APPLIQUÉES ET GÉNIE</h1>
-                    <p class="mb-4">La Faculté des Sciences Appliquées et Génie de l'UTSA est dédiée à la formation d'ingénieurs et de technologues de haut niveau, capables de répondre aux défis techniques du monde moderne. Nos programmes mettent l'accent sur la pratique, la recherche et l'innovation, préparant nos étudiants à devenir des leaders dans les domaines de l'informatique, de l'énergie, de l'environnement et plus encore.</p>
+                    <p class="mb-4">La Faculté des Sciences Appliquées et de Génie a pour vocation de former des ingénieurs, techniciens supérieurs et scientifiques capables de concevoir des solutions innovantes aux défis techniques, environnementaux et infrastructurels. Elle met l’accent sur la rigueur scientifique, la maîtrise des outils technologiques et l’application des connaissances aux problématiques concrètes, notamment dans les domaines de la construction, de l’aménagement et de la gestion des ressources.
+                    </p>
                 </div>
             </div>
 
@@ -121,14 +123,16 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-calculator me-2 text-primary"></i>Département de Mathématiques Pures</h5>
-                            <p class="card-text">Fondations mathématiques essentielles pour toutes les disciplines d'ingénierie. Algèbre linéaire, calcul différentiel, équations différentielles, probabilités et statistiques.</p>
+                            <p class="card-text">Formation fondamentale en mathématiques permettant de développer des capacités d’analyse, de modélisation et de raisonnement abstrait.  
+                            </p>
                             <small class="text-muted"><strong>Offre:</strong> Modules de base, cours avancés en mathématiques appliquées</small>
                         </div>
                     </div>
                     <div class="card mb-4">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-lightbulb me-2 text-primary"></i>Département de Physiques Pures</h5>
-                            <p class="card-text">Enseignement de la physique théorique et expérimentale. Mécanique, thermodynamique, électricité, magnétisme, optique et physique moderne.</p>
+                            <p class="card-text">Étude des principes fondamentaux de la physique pour comprendre les phénomènes naturels et technologiques. 
+                            </p>
                             <small class="text-muted"><strong>Offre:</strong> Laboratoires, équipements de pointe, recherche appliquée</small>
                         </div>
                     </div>
@@ -137,7 +141,8 @@
                     <div class="card mb-4">
                         <div class="card-body">
                             <h5 class="card-title"><i class="fa fa-building me-2 text-primary"></i>Département de Génie Civil et Hydraulique</h5>
-                            <p class="card-text">Formation en conception et construction d'infrastructures. Conception de structures, géotechnique, gestion des eaux, environnement et développement urbain durable.</p>
+                            <p class="card-text">Formation orientée vers la conception, la réalisation et la gestion des infrastructures (bâtiments, routes, systèmes hydrauliques), avec une attention particulière aux enjeux environnementaux et climatiques. 
+                            </p>
                             <small class="text-muted"><strong>Offre:</strong> Licences, Masters, projets du monde réel, partenariats industriels</small>
                         </div>
                     </div>
@@ -249,10 +254,73 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Liens Rapides</h4>
+                    <a class="btn btn-link" href="about.html">À propos de l'UTSA</a>
+                    <a class="btn btn-link" href="contact.html">Nous contacter</a>
+                    <a class="btn btn-link" href="#">Politique de confidentialité</a>
+                    <a class="btn btn-link" href="#">Termes &amp; Conditions</a>
+                    <a class="btn btn-link" href="#">FAQ &amp; Aide</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>52, rue Christophe, K-Soleil, Artibonite, Haïti</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+509 33 77 7088</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@utsa.ht</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Galerie</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Restez informé des dernières actualités et événements de l'UTSA.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre adresse email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">UTSA</a>, Tous droits réservés.
+                        <br>Université Techno-Scientifique de l'Amérique
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Accueil</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">Aide</a>
+                            <a href="#">FAQ</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
