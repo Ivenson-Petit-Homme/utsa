@@ -31,7 +31,6 @@
     <link href="css/style.css" rel="stylesheet">
 
     <style>
-        /* ── Event Cards ── */
         .event-card {
             border: none;
             border-radius: 16px;
@@ -44,11 +43,6 @@
             transform: translateY(-6px);
             box-shadow: 0 12px 32px rgba(0,0,0,.15);
         }
-        .event-card .card-img-top {
-            height: 200px;
-            object-fit: cover;
-        }
-        /* Coloured placeholder banners when no real photo is available */
         .event-banner {
             height: 200px;
             display: flex;
@@ -72,25 +66,9 @@
         .event-card .card-text  { font-size: .9rem; color: #6c757d; }
         .event-meta { font-size: .8rem; color: #999; }
 
-        /* ── Filter Badges ── */
         .filter-bar .btn { border-radius: 50px; font-size: .85rem; }
         .filter-bar .btn.active { background: var(--bs-primary); color: #fff; border-color: var(--bs-primary); }
 
-        /* ── Section Title ── */
-        .section-title-line {
-            display: flex;
-            align-items: center;
-            gap: 1rem;
-            margin-bottom: 2.5rem;
-        }
-        .section-title-line::after {
-            content: '';
-            flex: 1;
-            height: 2px;
-            background: #e9ecef;
-        }
-
-        /* ── Newsletter Banner ── */
         .newsletter-banner {
             background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
             border-radius: 20px;
@@ -127,7 +105,7 @@
                     <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">L'Université</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a href="presentation.html" class="dropdown-item">Présentation</a>
-                        <a href="mission-vision.html" class="dropdown-item">Mission & Vision</a>
+                        <a href="mission-vision.html" class="dropdown-item">Mission &amp; Vision</a>
                         <a href="gouvernance.html" class="dropdown-item">Gouvernance</a>
                         <a href="historique.html" class="dropdown-item">Historique</a>
                         <a href="partenariats.html" class="dropdown-item">Partenariats</a>
@@ -138,7 +116,7 @@
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Facultés</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a href="faculte-genie.html" class="dropdown-item">Sciences Appliquées et Génie</a>
-                        <a href="faculte-droit.html" class="dropdown-item">Droit, Sciences Admin. & Économiques</a>
+                        <a href="faculte-droit.html" class="dropdown-item">Droit, Sciences Admin. &amp; Économiques</a>
                         <a href="faculte-sante.html" class="dropdown-item">Sciences de la Santé</a>
                         <a href="faculte-education.html" class="dropdown-item">Sciences de l'Éducation</a>
                     </div>
@@ -160,7 +138,7 @@
     <!-- Header Start -->
     <div class="container-fluid bg-primary py-5 mb-5 page-header" style="margin-top: 150px;">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white mb-4">ACTUALITÉS & ÉVÉNEMENTS</h1>
+            <h1 class="display-4 text-white mb-4">ACTUALITÉS &amp; ÉVÉNEMENTS</h1>
             <ol class="breadcrumb justify-content-center mb-0">
                 <li class="breadcrumb-item"><a href="index.html" class="text-white">Accueil</a></li>
                 <li class="breadcrumb-item text-white active">Actualités</li>
@@ -200,14 +178,13 @@
                         <div class="event-banner banner-blue">
                             <i class="fa fa-university"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-primary">Événement</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Lancement officiel de l'UTSA</h5>
-                            <p class="card-text flex-grow-1">L'Université Techno-Scientifique de l'Amérique a été officiellement lancée lors d'une cérémonie solennelle réunissant autorités académiques, partenaires institutionnels et premières cohortes d'étudiants. Un moment historique marquant le début d'une nouvelle ère pour l'enseignement supérieur en Haïti.</p>
-                            <a href="lancement-utsa.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">L'Université Techno-Scientifique de l'Amérique a été officiellement lancée lors d'une cérémonie solennelle réunissant autorités académiques, partenaires institutionnels et premières cohortes d'étudiants. Un moment historique marquant le début d'une nouvelle ère pour l'enseignement supérieur en Haïti.</p>
                         </div>
                     </div>
                 </div>
@@ -218,14 +195,13 @@
                         <div class="event-banner banner-gold">
                             <i class="fa fa-graduation-cap"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-warning text-dark">Événement</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Graduation de l'UTSA</h5>
-                            <p class="card-text flex-grow-1">L'UTSA a célébré avec fierté la remise de diplômes de ses premiers diplômés lors d'une cérémonie de graduation empreinte d'émotion. Étudiants, familles et corps enseignant ont partagé ce moment de réussite académique qui témoigne de l'excellence de la formation dispensée par l'université.</p>
-                            <a href="graduation-utsa.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">L'UTSA a célébré avec fierté la remise de diplômes de ses premiers diplômés lors d'une cérémonie de graduation empreinte d'émotion. Étudiants, familles et corps enseignant ont partagé ce moment de réussite académique qui témoigne de l'excellence de la formation dispensée par l'université.</p>
                         </div>
                     </div>
                 </div>
@@ -236,14 +212,13 @@
                         <div class="event-banner banner-green">
                             <i class="fa fa-certificate"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-success">Accréditation</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Accréditation Internationale de l'IAO</h5>
-                            <p class="card-text flex-grow-1">L'UTSA a obtenu l'accréditation internationale de l'International Accreditation Organization (IAO), confirmant la qualité et la reconnaissance mondiale de ses programmes académiques. Cette certification place l'université parmi les institutions d'enseignement supérieur reconnues à l'échelle internationale.</p>
-                            <a href="accreditation-iao.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">L'UTSA a obtenu l'accréditation internationale de l'International Accreditation Organization (IAO), confirmant la qualité et la reconnaissance mondiale de ses programmes académiques. Cette certification place l'université parmi les institutions d'enseignement supérieur reconnues à l'échelle internationale.</p>
                         </div>
                     </div>
                 </div>
@@ -254,14 +229,13 @@
                         <div class="event-banner banner-teal">
                             <i class="fa fa-handshake"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-info text-dark">Partenariat</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Partenariat académique avec PHU</h5>
-                            <p class="card-text flex-grow-1">L'UTSA a signé un accord de partenariat académique avec PHU (Portmore Humanitarian University) afin de favoriser les échanges universitaires, la co-formation et la recherche conjointe. Ce partenariat stratégique ouvre de nouvelles perspectives pour les étudiants et les enseignants des deux institutions.</p>
-                            <a href="partenariat-phu.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">L'UTSA a signé un accord de partenariat académique avec PHU (Portmore Humanitarian University) afin de favoriser les échanges universitaires, la co-formation et la recherche conjointe. Ce partenariat stratégique ouvre de nouvelles perspectives pour les étudiants et les enseignants des deux institutions.</p>
                         </div>
                     </div>
                 </div>
@@ -272,14 +246,13 @@
                         <div class="event-banner banner-purple">
                             <i class="fa fa-handshake"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
-                                <span class="badge bg-purple text-white" style="background:#8b5cf6;">Partenariat</span>
+                                <span class="badge text-white" style="background:#8b5cf6;">Partenariat</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Partenariat académique avec IPES Business School</h5>
-                            <p class="card-text flex-grow-1">Un accord de coopération académique a été conclu entre l'UTSA et IPES Business School, renforçant la dimension internationale et professionnelle des formations en gestion et administration. Ce partenariat permettra des échanges d'expertise, de ressources pédagogiques et de mobilité étudiante.</p>
-                            <a href="partenariat-ipes.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">Un accord de coopération académique a été conclu entre l'UTSA et IPES Business School, renforçant la dimension internationale et professionnelle des formations en gestion et administration. Ce partenariat permettra des échanges d'expertise, de ressources pédagogiques et de mobilité étudiante.</p>
                         </div>
                     </div>
                 </div>
@@ -290,14 +263,13 @@
                         <div class="event-banner banner-red">
                             <i class="fa fa-heartbeat"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-danger">Santé</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Clinic Mobile</h5>
-                            <p class="card-text flex-grow-1">Dans le cadre de sa mission de service à la communauté, l'UTSA a déployé une Clinic Mobile offrant des consultations médicales gratuites aux populations des zones défavorisées. Cette initiative portée par la Faculté des Sciences de la Santé démontre l'engagement social profond de l'université envers le bien-être communautaire.</p>
-                            <a href="clinic-mobile.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">Dans le cadre de sa mission de service à la communauté, l'UTSA a déployé une Clinic Mobile offrant des consultations médicales gratuites aux populations des zones défavorisées. Cette initiative portée par la Faculté des Sciences de la Santé démontre l'engagement social profond de l'université envers le bien-être communautaire.</p>
                         </div>
                     </div>
                 </div>
@@ -308,14 +280,13 @@
                         <div class="event-banner banner-indigo">
                             <i class="fa fa-chalkboard-teacher"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge" style="background:#6366f1;">Formation</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Formation des professeurs — Nouvelles matières MENFP</h5>
-                            <p class="card-text flex-grow-1">L'UTSA a organisé une série de sessions de formation destinées à son corps professoral afin de les préparer aux nouvelles matières imposées par le Ministère de l'Éducation Nationale et de la Formation Professionnelle (MENFP). Une initiative qui reflète l'engagement de l'université envers la qualité pédagogique et la conformité aux standards nationaux.</p>
-                            <a href="formation-professeurs-menfp.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">L'UTSA a organisé une série de sessions de formation destinées à son corps professoral afin de les préparer aux nouvelles matières imposées par le Ministère de l'Éducation Nationale et de la Formation Professionnelle (MENFP). Une initiative qui reflète l'engagement de l'université envers la qualité pédagogique et la conformité aux standards nationaux.</p>
                         </div>
                     </div>
                 </div>
@@ -326,14 +297,13 @@
                         <div class="event-banner banner-orange">
                             <i class="fa fa-database"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-warning text-dark">Formation</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2024</small>
                             </div>
                             <h5 class="card-title mb-2">Formation : Maîtrise du Sphinx plus 2</h5>
-                            <p class="card-text flex-grow-1">L'UTSA a dispensé une formation spécialisée sur la maîtrise du logiciel de traitement de données <strong>Le Sphinx plus 2</strong>, outil incontournable pour l'analyse statistique et le traitement d'enquêtes. Cette formation s'inscrit dans la volonté de l'université de doter ses étudiants et enseignants des compétences numériques les plus actuelles.</p>
-                            <a href="formation-sphinx.html" class="btn btn-primary btn-sm mt-3">En savoir plus <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">L'UTSA a dispensé une formation spécialisée sur la maîtrise du logiciel de traitement de données <strong>Le Sphinx plus 2</strong>, outil incontournable pour l'analyse statistique et le traitement d'enquêtes. Cette formation s'inscrit dans la volonté de l'université de doter ses étudiants et enseignants des compétences numériques les plus actuelles.</p>
                         </div>
                     </div>
                 </div>
@@ -344,14 +314,13 @@
                         <div class="event-banner banner-cyan">
                             <i class="fa fa-user-plus"></i>
                         </div>
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <div class="d-flex justify-content-between align-items-center mb-2">
                                 <span class="badge bg-info text-dark">Inscription</span>
                                 <small class="event-meta"><i class="fa fa-calendar me-1"></i>2025</small>
                             </div>
                             <h5 class="card-title mb-2">Inscriptions ouvertes — Nouvelle cohorte</h5>
-                            <p class="card-text flex-grow-1">L'UTSA ouvre les inscriptions pour l'accueil d'une nouvelle cohorte d'étudiants dans l'ensemble de ses programmes : Diplôme, Licence, Master et Doctorat. Les candidats souhaitant intégrer l'université sont invités à soumettre leur dossier et à rejoindre une communauté académique dynamique et tournée vers l'excellence.</p>
-                            <a href="admission.html" class="btn btn-primary btn-sm mt-3">Postuler maintenant <i class="fa fa-arrow-right ms-1"></i></a>
+                            <p class="card-text">L'UTSA ouvre les inscriptions pour l'accueil d'une nouvelle cohorte d'étudiants dans l'ensemble de ses programmes : Diplôme, Licence, Master et Doctorat. Les candidats souhaitant intégrer l'université sont invités à soumettre leur dossier et à rejoindre une communauté académique dynamique et tournée vers l'excellence.</p>
                         </div>
                     </div>
                 </div>
@@ -396,6 +365,31 @@
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>52, rue Christophe, K-Soleil, Artibonite, Haïti</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+509 33 77 7088</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@utsa.ht</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Galerie</h4>
+                    <div class="row g-2 pt-2">
+                        <div class="col-4"><img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt=""></div>
+                        <div class="col-4"><img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt=""></div>
+                        <div class="col-4"><img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt=""></div>
+                        <div class="col-4"><img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt=""></div>
+                        <div class="col-4"><img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt=""></div>
+                        <div class="col-4"><img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Restez informé des dernières actualités et événements de l'UTSA.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre adresse email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -420,6 +414,9 @@
     </div>
     <!-- Footer End -->
 
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -427,20 +424,14 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
     <script src="js/main.js"></script>
 
     <script>
-        // Filter functionality
         function filterCards(category, btn) {
-            // Update active button
             document.querySelectorAll('.filter-bar .btn').forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-
             const items = document.querySelectorAll('.event-item');
             let visible = 0;
-
             items.forEach(item => {
                 if (category === 'all' || item.dataset.category === category) {
                     item.style.display = '';
@@ -449,7 +440,6 @@
                     item.style.display = 'none';
                 }
             });
-
             document.getElementById('noResults').classList.toggle('d-none', visible > 0);
         }
     </script>
