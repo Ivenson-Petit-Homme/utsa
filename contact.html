@@ -4,12 +4,95 @@
 <head>
     <meta charset="utf-8">
     <title>Contact - UTSA - Université Techno-Scientifique de l'Amérique</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="UTSA, contact, adresse, email, téléphone" name="keywords">
-    <meta content="Contactez l'UTSA pour toute information complémentaire sur nos formations et services." name="description">
+    
+    <!-- Baliz Meta SEO - Yoast Style -->
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="description" content="Contactez l'UTSA - Université Techno-Scientifique de l'Amérique en Haïti. Formulaire de contact, adresse, téléphone et email pour toute question sur nos formations.">
+    <link rel="canonical" href="https://utsahaiti.com/contact.html">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact - UTSA - Université Techno-Scientifique de l'Amérique">
+    <meta property="og:description" content="Contactez l'UTSA - Université Techno-Scientifique de l'Amérique en Haïti. Formulaire de contact, adresse, téléphone et email pour toute question sur nos formations.">
+    <meta property="og:url" content="https://utsahaiti.com/contact.html">
+    <meta property="og:site_name" content="UTSA - Université Techno-Scientifique de l'Amérique">
+    <meta property="og:image" content="https://utsahaiti.com/img/Logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+   meta property="og:image:type" content="image/png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact - UTSA - Université Techno-Scientifique de l'Amérique">
+    <meta name="twitter:description" content="Contactez l'UTSA - Université Techno-Scientifique de l'Amérique en Haïti. Formulaire de contact, adresse, téléphone et email pour toute question sur nos formations.">
+    <meta name="twitter:image" content="https://utsahaiti.com/img/Logo.png">
+    <meta name="twitter:site" content="@utsahaiti">
+    <meta name="twitter:creator" content="@utsahaiti">
+    <meta name="geo.region" content="HT-AR">
+    <meta name="geo.placename" content="Artibonite">
+    <meta name="geo.position" content="19.7517;-72.2026">
+    <meta name="ICBM" content="19.7517, -72.2026">
+    <meta name="author" content="UTSA - Université Techno-Scientifique de l'Amérique">
+    <meta name="copyright" content="UTSA">
+    <meta name="revisit-after" content="7 days">
+    <meta name="language" content="French">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    <meta name="audience" content="all">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollegeOrUniversity",
+        "name": "UTSA - Université Techno-Scientifique de l'Amérique",
+        "alternateName": "UTSA",
+        "url": "https://utsahaiti.com",
+        "logo": "https://utsahaiti.com/img/Logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+509-32-98-6928",
+            "contactType": "Administration",
+            "availableLanguage": ["French", "English", "Haitian Creole"]
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "52, rue Christophe, K-Soleil",
+            "addressLocality": "Artibonite",
+            "addressCountry": "HT"
+        },
+        "sameAs": [
+            "https://www.facebook.com/utsahaiti",
+            "https://twitter.com/utsahaiti",
+            "https://www.linkedin.com/school/utsahaiti"
+        ]
+    }
+    </script>
+    
+    <!-- Schema.org ContactPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact - UTSA",
+        "description": "Page de contact de l'UTSA - Université Techno-Scientifique de l'Amérique",
+        "url": "https://utsahaiti.com/contact.html",
+        "mainEntity": {
+            "@type": "Organization",
+            "name": "UTSA",
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+509-32-98-6928",
+                "email": "admin@utsahaiti.com",
+                "contactType": "Administration"
+            }
+        }
+    }
+    </script>
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,6 +112,198 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Custom CSS pou contact -->
+    <style>
+        .contact-info-card {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 40px 30px;
+            height: 100%;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+        .contact-info-card:hover {
+            transform: translateY(-5px);
+        }
+        .contact-info-card .info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+        }
+        .contact-info-card .info-item:last-child {
+            margin-bottom: 0;
+        }
+        .contact-info-card .icon-box {
+            width: 55px;
+            height: 55px;
+            min-width: 55px;
+            background: linear-gradient(135deg, #0d6efd, #0a58ca);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 18px;
+        }
+        .contact-info-card .icon-box i {
+            font-size: 22px;
+            color: #fff;
+        }
+        .contact-info-card .info-content h6 {
+            font-size: 15px;
+            color: #6c757d;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 3px;
+        }
+        .contact-info-card .info-content h5 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #1f2a3a;
+            margin-bottom: 0;
+        }
+        .contact-info-card .info-content p {
+            font-size: 15px;
+            color: #495057;
+            margin-bottom: 0;
+        }
+        .contact-form-wrapper {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 40px 35px;
+            height: 100%;
+            box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease;
+        }
+        .contact-form-wrapper:hover {
+            transform: translateY(-5px);
+        }
+        .contact-form-wrapper .form-floating {
+            margin-bottom: 15px;
+        }
+        .contact-form-wrapper .form-floating:last-of-type {
+            margin-bottom: 20px;
+        }
+        .contact-form-wrapper .form-control {
+            border-radius: 10px;
+            border: 1px solid #e0e5ec;
+            padding: 12px 16px;
+            height: 58px;
+            font-size: 15px;
+            transition: all 0.3s ease;
+        }
+        .contact-form-wrapper .form-control:focus {
+            border-color: #0d6efd;
+            box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+        }
+        .contact-form-wrapper textarea.form-control {
+            height: 130px;
+            resize: vertical;
+        }
+        .contact-form-wrapper .form-floating label {
+            padding: 16px 16px;
+            font-size: 14px;
+            color: #6c757d;
+        }
+        .contact-form-wrapper .btn-submit {
+            background: linear-gradient(135deg, #0d6efd, #0a58ca);
+            border: none;
+            border-radius: 10px;
+            padding: 14px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+        .contact-form-wrapper .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(13, 110, 253, 0.35);
+        }
+        .contact-form-wrapper .btn-submit:disabled {
+            opacity: 0.7;
+            transform: none;
+        }
+        .section-title-custom {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 700;
+            color: #0d6efd;
+            margin-bottom: 10px;
+        }
+        .section-heading {
+            font-size: 38px;
+            font-weight: 800;
+            color: #1f2a3a;
+            margin-bottom: 20px;
+        }
+        .section-heading span {
+            color: #0d6efd;
+        }
+        .contact-divider {
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(135deg, #0d6efd, #0a58ca);
+            border-radius: 2px;
+            margin-bottom: 25px;
+        }
+        @media (max-width: 768px) {
+            .section-heading {
+                font-size: 28px;
+            }
+            .contact-info-card {
+                padding: 25px 20px;
+            }
+            .contact-form-wrapper {
+                padding: 25px 20px;
+                margin-top: 25px;
+            }
+            .contact-info-card .info-item {
+                margin-bottom: 20px;
+            }
+        }
+        /* Ranje navbar */
+        .navbar-brand {
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        .navbar-brand img {
+            height: 55px;
+            width: auto;
+            object-fit: contain;
+        }
+        .navbar .btn {
+            white-space: nowrap;
+            font-size: 14px;
+            padding: 12px 20px;
+        }
+        .navbar .btn-outline-primary {
+            border-color: #0d6efd;
+        }
+        .navbar .btn-outline-primary:hover {
+            background: #0d6efd;
+            color: #fff;
+        }
+        @media (max-width: 991.98px) {
+            .navbar .d-none.d-lg-flex {
+                display: none !important;
+            }
+        }
+        /* Ranje footer dev */
+        .footer-dev {
+            font-size: 14px;
+        }
+        .footer-dev a {
+            color: #25D366;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .footer-dev a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
@@ -44,7 +319,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow fixed-top p-0">
         <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <img src="img/Logo.png" alt="UTSA" style="height: 60px;">
+            <img src="img/Logo.png" alt="UTSA - Université Techno-Scientifique de l'Amérique">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -53,12 +328,12 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link">Accueil</a>
                 <div class="nav-item dropdown">
-                    <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">L’Université</a>
+                    <a href="about.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">L'Université</a>
                     <div class="dropdown-menu fade-down m-0">
                         <a href="presentation.html" class="dropdown-item">Présentation</a>
                         <a href="mission-vision.html" class="dropdown-item">Mission & Vision</a>
                         <a href="gouvernance.html" class="dropdown-item">Gouvernance</a>
-                        <a href="historique.html" class="dropdown-item">Historique</a>
+                        <a href="historique.html" class="dropdown-item">Histoire</a>
                         <a href="partenariats.html" class="dropdown-item">Partenariats</a>
                     </div>
                 </div>
@@ -66,10 +341,10 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Facultés</a>
                     <div class="dropdown-menu fade-down m-0">
-                        <a href="faculte-genie.html" class="dropdown-item">Sciences Appliquées et Génie</a>
+                        <a href="faculte-genie.html" class="dropdown-item">Faculté des Sciences Appliquées et de Génie</a>
                         <a href="faculte-droit.html" class="dropdown-item">Droit, Sciences Admin. & Économiques</a>
                         <a href="faculte-sante.html" class="dropdown-item">Sciences de la Santé</a>
-                        <a href="faculte-education.html" class="dropdown-item">Sciences de l’Éducation</a>
+                        <a href="faculte-education.html" class="dropdown-item">Sciences de l'Éducation</a>
                     </div>
                 </div>
                 <a href="admission.html" class="nav-item nav-link">Admissions</a>
@@ -78,9 +353,9 @@
                 <a href="actualites.html" class="nav-item nav-link">Actualités</a>
                 <a href="contact.html" class="nav-item nav-link active">Contact</a>
             </div>
-            <div class="d-none d-lg-flex align-items-center">
-                <a href="admission.html" class="btn btn-primary py-4 px-lg-3">Candidater<i class="fa fa-arrow-right ms-2"></i></a>
-                <a href="#" class="btn btn-outline-primary py-4 px-lg-3 ms-lg-2">Espace Étudiant<i class="fa fa-user ms-2"></i></a>
+            <div class="d-none d-lg-flex align-items-center pe-4">
+                <a href="admission.html" class="btn btn-primary py-3 px-4 me-2">Candidater <i class="fa fa-arrow-right ms-1"></i></a>
+                <a href="#" class="btn btn-outline-primary py-3 px-4">Espace Étudiant <i class="fa fa-user ms-1"></i></a>
             </div>
         </div>
     </nav>
@@ -93,9 +368,9 @@
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
                     <h1 class="display-3 text-white animated slideInDown">CONTACT</h1>
-                    <nav aria-label="breadcrumb">
+                    <nav aria-label="Breadcrumb - UTSA Contact">
                         <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Accueil</a></li>
                             <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
                         </ol>
@@ -107,84 +382,135 @@
     <!-- Header End -->
 
 
-    <!-- Contact Start -->
+    <!-- Contact Start - Nouvo Design -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Nous Contacter</h6>
-                <h1 class="mb-5">Contactez-nous pour Toute Question</h1>
+                <p class="section-title-custom">Nous Contacter</p>
+                <h2 class="section-heading">Contactez-nous pour <span>Toute Question</span></h2>
+                <div class="contact-divider mx-auto"></div>
+                <p class="text-muted mb-5" style="max-width: 600px; margin: 0 auto 40px; font-size: 17px;">
+                    Une question sur nos programmes, admissions ou partenariats ? N'hésitez pas à nous contacter. Notre équipe vous répondra dans les plus brefs délais.
+                </p>
             </div>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5>Coordonnées UTSA - Haïti</h5>
-                    <p class="mb-4">Pour toute question concernant nos programmes académiques, admissions, recherche ou partenariats, contactez-nous en utilisant les informations ci-dessous ou le formulaire de contact.</p>
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
-                            <i class="fa fa-map-marker-alt text-white"></i>
+
+            <div class="row g-5 align-items-stretch">
+                <!-- Colonne Infos -->
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="contact-info-card">
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fa fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h6>Adresse</h6>
+                                <h5>Siège Principal</h5>
+                                <p>52, rue Christophe, K-Soleil<br>Département de l'Artibonite, Haïti</p>
+                            </div>
                         </div>
-                        <div class="ms-3">
-                            <h5 class="text-primary">Siège Principal</h5>
-                            <p class="mb-0">52, rue Christophe, K-Soleil,<br>Département de l'Artibonite, Haïti</p>
+                        
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fa fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h6>Téléphone</h6>
+                                <h5>Administration</h5>
+                                <p>+509 32 98 6928</p>
+                                <h5 class="mt-2">Admissions</h5>
+                                <p>+509 33 77 7088</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-3">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
-                            <i class="fa fa-phone-alt text-white"></i>
+                        
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fa fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h6>Email</h6>
+                                <h5>admin@utsahaiti.com</h5>
+                                <p>Nous répondons sous 24-48h</p>
+                            </div>
                         </div>
-                        <div class="ms-3">
-                            <h5 class="text-primary">Téléphone</h5>
-                            <p class="mb-0">+509 32 98 6928 (Admin)<br>+509 33 77 7088
- (Admissions)</p>
+
+                        <div class="info-item">
+                            <div class="icon-box">
+                                <i class="fa fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h6>Horaires d'ouverture</h6>
+                                <h5>Lundi - Vendredi</h5>
+                                <p>8h00 - 17h00</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="d-flex align-items-center">
-                        <div class="d-flex align-items-center justify-content-center flex-shrink-0 bg-primary" style="width: 50px; height: 50px;">
-                            <i class="fa fa-envelope-open text-white"></i>
-                        </div>
-                        <div class="ms-3">
-                            <h5 class="text-primary">Email</h5>
-                            <p class="mb-0">Rectorat@utsahaiti.com<br>Contact@utsahaiti.com </p>
+
+                        <!-- Reseaux Sociaux -->
+                        <div class="mt-4 pt-3 border-top">
+                            <p class="fw-bold mb-3" style="color: #1f2a3a;">Suivez-nous</p>
+                            <div class="d-flex gap-2">
+                                <a href="https://www.facebook.com/utsahaiti" target="_blank" class="btn btn-primary btn-sm rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #1877f2; border-color: #1877f2;">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #1da1f2; border-color: #1da1f2;">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #0a66c2; border-color: #0a66c2;">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #ff0000; border-color: #ff0000;">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" class="btn btn-primary btn-sm rounded-circle" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; background: #e4405f; border-color: #e4405f;">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <iframe class="position-relative rounded w-100 h-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.6456789!2d-72.2026!3d19.7517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb1d5c5a1a1a1a1%3A0x1234567890abcdef!2sCap-Ha%C3%AFtien!5e0!3m2!1sfr!2sht!4v1603794290143!5m2!1sfr!2sht"
-                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
-                </div>
-                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
-                    <form action="send_contact.php" method="POST">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="Votre Nom" required>
-                                    <label for="name">Votre Nom</label>
+
+                <!-- Colonne Formulaire -->
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="contact-form-wrapper">
+                        <h4 class="mb-3" style="color: #1f2a3a; font-weight: 700;">Envoyez-nous un message</h4>
+                        <p class="text-muted mb-4" style="font-size: 14px;">Remplissez le formulaire ci-dessous et nous vous répondrons rapidement.</p>
+                        
+                        <form id="contactForm" method="POST" aria-label="Formulaire de contact UTSA">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="name" id="name" placeholder="Votre Nom" required>
+                                        <label for="name"><i class="fa fa-user me-2 text-primary"></i>Votre Nom</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
+                                        <label for="email"><i class="fa fa-envelope me-2 text-primary"></i>Votre Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
+                                        <label for="subject"><i class="fa fa-tag me-2 text-primary"></i>Sujet</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" name="message" placeholder="Laissez un message ici" id="message" style="height: 130px" required></textarea>
+                                        <label for="message"><i class="fa fa-comment me-2 text-primary"></i>Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-submit w-100" type="submit" id="submitBtn">
+                                        <i class="fa fa-paper-plane me-2"></i>Envoyer le Message
+                                    </button>
+                                </div>
+                                <div class="col-12">
+                                    <div id="formMessage" class="alert d-none" role="alert"></div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" required>
-                                    <label for="email">Votre Email</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
-                                    <label for="subject">Sujet</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" name="message" placeholder="Laissez un message ici" id="message" style="height: 150px" required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Envoyer le Message</button>
-                            </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -200,42 +526,43 @@
                     <h4 class="text-white mb-3">Liens Rapides</h4>
                     <a class="btn btn-link" href="about.html">À propos de l'UTSA</a>
                     <a class="btn btn-link" href="contact.html">Nous contacter</a>
-                    <a class="btn btn-link" href="#">Politique de confidentialité</a>
-                    <a class="btn btn-link" href="#">Termes &amp; Conditions</a>
-                    <a class="btn btn-link" href="#">FAQ &amp; Aide</a>
+                    <a class="btn btn-link" href="admission.html">Admissions</a>
+                    <a class="btn btn-link" href="courses.html">Formations</a>
+                    <a class="btn btn-link" href="actualites.html">Actualités</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
                     <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>52, rue Christophe, K-Soleil, Artibonite, Haïti</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+509 42 33 5535</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>contact@utsahaiti.com</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>admin@utsahaiti.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/utsahaiti" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="#" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Galerie</h4>
                     <div class="row g-2 pt-2">
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/GAL2.jpg" alt="Campus UTSA - Vue 1" loading="lazy">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/GAL21.jpg" alt="Campus UTSA - Vue 2" loading="lazy">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/GAL22.jpg" alt="Campus UTSA - Vue 3" loading="lazy">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/GAL23.jpg" alt="Campus UTSA - Vue 4" loading="lazy">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/GQL1.jpg" alt="Campus UTSA - Vue 5" loading="lazy">
                         </div>
                         <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="Campus UTSA - Vue 6" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -243,7 +570,7 @@
                     <h4 class="text-white mb-3">Newsletter</h4>
                     <p>Restez informé des dernières actualités et événements de l'UTSA.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre adresse email">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email" placeholder="Votre adresse email" aria-label="Email pour newsletter">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">S'inscrire</button>
                     </div>
                 </div>
@@ -253,26 +580,41 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">UTSA</a>, Tous droits réservés.
-                        <br>Université Techno-Scientifique de l'Amérique
+                        &copy; <a class="border-bottom" href="https://utsahaiti.com">UTSA</a>, Tous droits réservés.
+                        Université Techno-Scientifique de l'Amérique
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="index.html">Accueil</a>
-                            <a href="#">Cookies</a>
-                            <a href="#">Aide</a>
-                            <a href="#">FAQ</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="admission.html">Admissions</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Ligne Développeur -->
+        <div class="row mt-3 pt-3 border-top border-secondary">
+    <div class="col-12 text-center">
+        <p class="text-muted mb-0 footer-dev">
+            <i class="fas fa-code text-primary me-2"></i>
+            <span style="color: #FFD700; font-weight: 700;">Réalisé par</span> 
+            <strong class="text-white">Ivenson Petit-Homme</strong> 
+            <span class="text-secondary mx-2">|</span> 
+            <span class="text-white">Ingénieur en Informatique</span>
+            <span class="text-secondary mx-2">|</span> 
+            <i class="fab fa-whatsapp text-success me-1"></i>
+            <a href="https://wa.me/50941613156" target="_blank">
+                +509 41 61 31 56
+            </a>
+        </p>
+    </div>
+</div>
         </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" aria-label="Retour en haut"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -285,6 +627,61 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Script pou fòmilè a -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contactForm');
+            const messageDiv = document.getElementById('formMessage');
+            const submitBtn = document.getElementById('submitBtn');
+
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                submitBtn.disabled = true;
+                submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span> Envoi en cours...';
+
+                const formData = new FormData(form);
+
+                fetch('https://formspree.io/f/xaqgweez', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        return response.json();
+                    } else {
+                        throw new Error('Network response was not ok.');
+                    }
+                })
+                .then(data => {
+                    messageDiv.className = 'alert alert-success';
+                    messageDiv.innerHTML = '<i class="fas fa-check-circle me-2"></i> <strong>Félicitations !</strong> Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.';
+                    messageDiv.classList.remove('d-none');
+                    
+                    form.reset();
+                    
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = '<i class="fa fa-paper-plane me-2"></i>Envoyer le Message';
+                    
+                    setTimeout(function() {
+                        messageDiv.classList.add('d-none');
+                    }, 10000);
+                })
+                .catch(error => {
+                    messageDiv.className = 'alert alert-danger';
+                    messageDiv.innerHTML = '<i class="fas fa-exclamation-circle me-2"></i> <strong>Oups !</strong> Une erreur s\'est produite. Veuillez réessayer ou nous contacter directement par email.';
+                    messageDiv.classList.remove('d-none');
+                    
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = '<i class="fa fa-paper-plane me-2"></i>Envoyer le Message';
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
