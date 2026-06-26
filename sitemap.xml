@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- Paj akèy (priority 1.0) -->
+    <url>
+        <loc>https://utsahaiti.com/</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- L'Université -->
+    <url>
+        <loc>https://utsahaiti.com/presentation.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://utsahaiti.com/mission-vision.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://utsahaiti.com/gouvernance.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://utsahaiti.com/historique.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://utsahaiti.com/partenariats.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Formations -->
+    <url>
+        <loc>https://utsahaiti.com/courses.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Facultés -->
+    <url>
+        <loc>https://utsahaiti.com/faculte-genie.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://utsahaiti.com/faculte-droit.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://utsahaiti.com/faculte-sante.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://utsahaiti.com/faculte-education.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Admissions -->
+    <url>
+        <loc>https://utsahaiti.com/admission.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Recherche -->
+    <url>
+        <loc>https://utsahaiti.com/recherche.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Vie universitaire -->
+    <url>
+        <loc>https://utsahaiti.com/vie-universitaire.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Actualités -->
+    <url>
+        <loc>https://utsahaiti.com/actualites.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Contact -->
+    <url>
+        <loc>https://utsahaiti.com/contact.html</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Espace Étudiant (si li kreye) -->
+    <url>
+        <loc>https://utsahaiti.com/espace-etudiant/login.php</loc>
+        <lastmod>2026-06-21</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+</urlset>
