@@ -172,6 +172,29 @@
             <!-- Events Grid -->
             <div class="row g-4" id="eventsGrid">
 
+                <!-- 0. Colloque Scientifique International -->
+                <div class="col-lg-4 col-md-6 event-item" data-category="Événement">
+                    <div class="event-card card">
+                        <img src="img/UTSA appel.png" class="card-img-top" alt="Appel à contributions UTSA" style="height: 250px; object-fit: contain; background: #f8f9fa;">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span class="badge bg-primary">Événement</span>
+                                <small class="event-meta"><i class="fa fa-calendar me-1"></i>27 Nov 2026</small>
+                            </div>
+                            <h5 class="card-title mb-2">Appel à contributions - Colloque Scientifique International de l'UTSA</h5>
+                            <p class="card-text mb-3">L'UTSA annonce son colloque international sur le thème : « Développement, pauvreté et entreprises contemporaines ». Chercheurs et professionnels sont invités à participer.</p>
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-sm btn-primary w-100" data-bs-toggle="modal" data-bs-target="#modalColloque">
+                                    <i class="fa fa-eye me-1"></i> Voir plus
+                                </button>
+                                <a href="pdfjs/Appel_à_contribution_UTSA.pdf" class="btn btn-sm btn-outline-primary w-100" target="_blank">
+                                    <i class="fa fa-download me-1"></i> PDF
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- 1. Lancement officiel de l'UTSA -->
                 <div class="col-lg-4 col-md-6 event-item" data-category="Événement">
                     <div class="event-card card">
@@ -344,6 +367,47 @@
                 </div>
             </div>
 
+            <!-- Modal for Colloque Scientifique -->
+            <div class="modal fade" id="colloqueModal" tabindex="-1" aria-labelledby="colloqueModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary text-white">
+                            <h5 class="modal-title" id="colloqueModalLabel">Appel à contributions — Colloque Scientifique International de l'UTSA</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-4">
+                            <div class="text-center mb-4">
+                                <img src="img/UTSA appel.png" class="img-fluid rounded shadow-sm" alt="Affiche Colloque" style="max-height: 400px;">
+                            </div>
+                            <h4 class="text-primary mb-3">Thème : « Développement, pauvreté et entreprises contemporaines : enjeux du sous-développement, des inégalités sociales et de la redistribution »</h4>
+                            <p>L'Université Techno-Scientifique de l'Amérique, UTSA, à travers sa Faculté de Droit, des Sciences Administratives et Économiques, annonce la tenue d'un colloque scientifique international, en ligne.</p>
+
+                            <div class="bg-light p-3 rounded mb-3">
+                                <ul class="list-unstyled mb-0">
+                                    <li><i class="fa fa-calendar-alt text-primary me-2"></i><strong>Date :</strong> 27 novembre 2026</li>
+                                    <li><i class="fa fa-clock text-primary me-2"></i><strong>Horaire :</strong> 10h00 - 15h00 (GMT-4)</li>
+                                    <li><i class="fa fa-video text-primary me-2"></i><strong>Plateforme :</strong> Google Meet</li>
+                                    <li><i class="fa fa-check-circle text-primary me-2"></i><strong>Participation :</strong> Gratuite (Certificat délivré à l'issue)</li>
+                                </ul>
+                            </div>
+
+                            <h5>Appel à contributions</h5>
+                            <p>L'UTSA invite l'ensemble de la communauté scientifique à soumettre des contributions originales, au plus tard, le <strong>10 octobre 2026 (23h, GMT-4)</strong>, à <a href="mailto:admin@utsahaiti.com">admin@utsahaiti.com</a>, avec en copie <a href="mailto:clervil.william@utsahaiti.com">clervil.william@utsahaiti.com</a>.</p>
+
+                            <p>Cet événement réunira chercheurs, enseignants-chercheurs, doctorants, professionnels et décideurs publics autour d'une réflexion interdisciplinaire sur les grands défis du développement dans les pays sous-développés.</p>
+
+                            <p>Les modalités complètes de soumission des constructions conceptuelles sont précisées dans l'appel à contributions officielles ci-joint.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                            <a href="pdfjs/Appel_à_contribution_UTSA.pdf" class="btn btn-primary" target="_blank">
+                                <i class="fa fa-download me-1"></i> Télécharger l'Appel (PDF)
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- Content End -->
@@ -454,6 +518,40 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+
+    <!-- Modal Colloque Start -->
+    <div class="modal fade" id="modalColloque" tabindex="-1" aria-labelledby="modalColloqueLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalColloqueLabel">Appel à contributions - Colloque Scientifique International</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="row g-4">
+                        <div class="col-md-5">
+                            <img src="img/UTSA appel.png" class="img-fluid rounded shadow-sm" alt="Affiche Colloque">
+                        </div>
+                        <div class="col-md-7">
+                            <h4 class="text-primary mb-3">Appel à contributions - Colloque Scientifique International de l'UTSA</h4>
+                            <p>L'Université Techno-Scientifique de l'Amérique, UTSA, à travers sa Faculté de Droit, des Sciences Administratives et Économiques, annonce la tenue d'un colloque scientifique international, en ligne, consacré au thème : <strong>« Développement, pauvreté et entreprises contemporaines : enjeux du sous-développement, des inégalités sociales et de la redistribution »</strong>.</p>
+                            <p>Cet événement, qui se tiendra le 27 novembre 2026, 10h00 - 15h00 (GMT-4) sur Google Meet, réunira chercheurs, enseignants-chercheurs, doctorants, professionnels et décideurs publics autour d'une réflexion interdisciplinaire sur les grands défis du développement dans les pays sous-développés.</p>
+                            <p>L'UTSA invite l'ensemble de la communauté scientifique à soumettre des contributions originales, au plus tard, le 10 octobre 2026 (23h, GMT-4), à <strong>admin@utsahaiti.com</strong>, avec en copie <strong>clervil.william@utsahaiti.com</strong>.</p>
+                            <p>Les modalités complètes de soumission des constructions conceptuelles sont précisées dans l'appel à contributions officielles ci-joint.</p>
+                            <p>La participation est gratuite et un certificat de participation sera délivré à l'issue du colloque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                    <a href="pdfjs/Appel_à_contribution_UTSA.pdf" class="btn btn-primary" target="_blank">
+                        <i class="fa fa-download me-2"></i>Télécharger PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Colloque End -->
 
     <script>
         function filterCards(category, btn) {
